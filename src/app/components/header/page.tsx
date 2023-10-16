@@ -13,7 +13,7 @@ export default function Header() {
     <div className="flex w-full justify-center">
       <div className="mx-auto max-w-screen-lg sm:w-full sm:flex hidden">
         <div className="flex items-center lg:w-full w-full justify-between mx-2">
-          <Image src={Logo} alt="logo" />
+          <Image src={Logo} alt="logo" className="w-[38px]" />
 
           <nav className="flex items-center justify-between gap-8">
             <Link href="#" className="hover:text-secundary">
@@ -33,7 +33,7 @@ export default function Header() {
       </div>
 
       <div className="flex sm:hidden justify-between w-full mx-3 items-center">
-        <Image src={Logo} alt="logo" />
+        <Image src={Logo} alt="logo"  className="w-[38px]"/>
         <button className="text-5xl z-[10] text-secundary" onClick={handleClick}>
           {isOpen ? <IoCloseOutline /> : <IoMenu />}
         </button>
