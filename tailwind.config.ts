@@ -15,11 +15,11 @@ const config: Config = {
       },
       backgroundColor: {
         'bgPrimary': '#0B0A10',
-        'bgSecundary': '#FF6FCA'
+        'bgSecundary': '#FF93D7'
       },
       colors: {
         'primary': '#FFF',
-        'secundary': '#FF6FCA',
+        'secundary': '#FF93D7',
       }
     },
   },

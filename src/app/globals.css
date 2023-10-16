@@ -11,3 +11,19 @@ body {
   color: #fff;
   background: #0B0A10;
 }
+
+
+::-webkit-scrollbar {
+ width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #FF6FCA;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) {
+  .ss {
+      margin-top: 3px;
+  }
+}
