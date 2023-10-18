@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <div className="flex w-full justify-center">
-      <div className="mx-auto max-w-screen-lg sm:w-full sm:flex hidden fixed bg-bgPrimary z-[999]">
+      <div className="mx-auto max-w-screen-lg sm:w-full sm:flex hidden fixed bg-bgPrimary z-[999]  h-16">
         <div className="flex items-center lg:w-full w-full justify-between mx-2">
           <Image src={Logo} alt="logo" className="w-[38px]" />
 
@@ -51,7 +51,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="flex sm:hidden justify-between w-full mx-3 items-center fixed bg-bgPrimary z-[999]">
+      <div className="flex sm:hidden justify-between w-full mx-3 items-center fixed bg-bgPrimary z-[999] h-16">
         <Image src={Logo} alt="logo" className="w-[38px]" />
         <button
           className="text-5xl z-[10] text-secundary"
@@ -65,7 +65,7 @@ export default function Header() {
         <div className="top-0 left-0 w-full h-full bg-opacity-50 flex items-center justify-center z-[999] fixed bg-bgPrimary">
           <div className="p-[10rem] w-full h-[100vh] shadow-lg transform translate-x-0 transition-transform fixed bg-bgPrimary">
             <button
-              className="text-5xl z-[10] text-secundary fixed top-[1rem] right-[1rem]"
+              className="text-5xl z-[10] text-secundary fixed top-[0.4rem] right-[-0.1rem]"
               onClick={handleClick}
             >
               <IoCloseOutline />

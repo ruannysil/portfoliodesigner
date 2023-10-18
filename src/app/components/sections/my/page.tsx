@@ -2,7 +2,7 @@ import Image from "next/image";
 import Abstract from "@/app/assets/testeee.svg";
 import Linkedin from "@/app/assets/linkedin logo.svg";
 import Instagram from "@/app/assets/instagram logo.svg";
-import Behance from "@/app/assets/behance.svg";
+import Dribble from "@/app/assets/Dribble svg.png";
 import Link from "next/link";
 
 export default function My() {
@@ -27,7 +27,7 @@ export default function My() {
           </span>
           <Link
             href="#"
-            className="bg-secundary p-2 items-center justify-center text-center mt-4 mb-4 md:w-full w-60 font-bold text-xl"
+            className="bg-secundary p-2 items-center justify-center text-center mt-4 mb-4 md:w-full w-60 font-bold text-xl rounded-md hover:bg-white hover:text-secundary"
           >
             Baixar cv
           </Link>
@@ -37,10 +37,10 @@ export default function My() {
               <Image src={Linkedin} alt="image linkedin" />
             </Link>
             <Link href="#">
-              <Image src={Instagram} alt="image linkedin" />
+              <Image src={Dribble} alt="image linkedin" />
             </Link>
             <Link href="#">
-              <Image src={Behance} alt="image linkedin" />
+              <Image src={Instagram} alt="image linkedin" />
             </Link>
           </div>
         </div>
