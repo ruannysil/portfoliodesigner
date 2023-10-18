@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Abstract from "@/app/assets/testeee.svg";
-import Linkedin from "@/app/assets/linkedin logo.svg";
-import Instagram from "@/app/assets/instagram logo.svg";
+import Linkedin from "@/app/assets/linkedin.svg";
+import Instagram from "@/app/assets/instagram.svg";
 import Dribble from "@/app/assets/Dribble svg.png";
 import Link from "next/link";
 
@@ -33,14 +33,14 @@ export default function My() {
           </Link>
           <div className="flex items-center gap-2">
             <h3>Follow me on:</h3>
-            <Link href="#">
-              <Image src={Linkedin} alt="image linkedin" />
+            <Link href="https://www.linkedin.com/in/aline-oliveira-machado-6b1a06205/">
+              <Image src={Linkedin} alt="logo linkedin" />
             </Link>
-            <Link href="#">
-              <Image src={Dribble} alt="image linkedin" />
+            <Link href="https://dribbble.com/alineoliveira98">
+              <Image src={Dribble} alt="logo dribble" />
             </Link>
-            <Link href="#">
-              <Image src={Instagram} alt="image linkedin" />
+            <Link href="https://www.instagram.com/aline_machado98/">
+              <Image src={Instagram} alt="image instagram" />
             </Link>
           </div>
         </div>
