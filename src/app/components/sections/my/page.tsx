@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Abstract from "@/app/assets/testeee.svg";
-import Linkedin from "@/app/assets/linkedin.svg";
-import Instagram from "@/app/assets/instagram.svg";
+import Linkedin from "@/app/assets/LinkedIn.svg";
+import Instagram from "@/app/assets/Instagram.svg";
 import Dribble from "@/app/assets/Dribble svg.png";
 import Link from "next/link";
 

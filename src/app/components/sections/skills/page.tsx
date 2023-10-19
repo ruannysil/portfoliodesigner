@@ -3,17 +3,15 @@
 import Image from "next/image";
 import Figma from "@/app/assets/figma.svg";
 import Canva from "@/app/assets/Canva.svg";
-import SmartPhone from "@/app/assets/smartphone.svg";
 import personal from "@/app/assets/gifpp.png";
 import Mockup1 from "@/app/assets/Mockup1.svg";
 import Mockup2 from "@/app/assets/Mockup2.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
-import { useRef } from "react";
 
 export default function Skills() {
   const data = [
