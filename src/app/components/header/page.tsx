@@ -6,6 +6,9 @@ import Logo from "@/app/assets/logo.svg";
 import { IoMenu, IoCloseOutline } from "react-icons/io5";
 import { useEffect, useState } from "react";
 
+
+
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => setIsOpen(!isOpen);
@@ -15,6 +18,8 @@ export default function Header() {
       setIsOpen(false);
     }
   }
+
+ 
 
   useEffect(() => {
     closeMenuIfLargeScreen();
@@ -32,7 +37,7 @@ export default function Header() {
           <Image src={Logo} alt="logo" className="w-[38px]" />
 
           <nav className="flex items-center justify-between gap-8">
-            <Link href="#" className="hover:text-secundary">
+            <Link href="/#about" className="hover:text-secundary">
               Sobre
             </Link>
             <Link href="#" className="hover:text-secundary">
@@ -72,14 +77,14 @@ export default function Header() {
             </button>
             <nav className="flex text-center items-center w-full justify-center gap-12 flex-col">
               <Link
-                href="#"
+                href="about"
                 className="hover:text-secundary font-semibold text-xl"
                 onClick={handleClick}
               >
                 Sobre
               </Link>
               <Link
-                href="#"
+                href="about"
                 className="hover:text-secundary font-semibold text-xl"
                 onClick={handleClick}
               >
